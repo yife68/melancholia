@@ -1,0 +1,156 @@
+/*
+  Theme: hexo-theme-Melancholia
+  Author: 亦封
+  Maintainer: @yife68
+  Maintainer-GitHub: https://github.com/yife68
+
+  theme - GitHub: https://github.com/yife68/hexo-theme-Melancholia
+*/
+/*
+主题: hexo-theme-Melancholia
+作者: 亦封
+维护人员: @yife68
+维护人员的GitHub个人地址: https://github.com/yife68
+
+主题的GitHub个人地址: https://github.com/yife68/hexo-theme-Melancholia
+*/
+#main {
+  margin: 0;
+  padding: 0;
+  margin-top: 80px;
+  display: block !important;
+}
+#main .top-main {
+  margin: 0 100px;
+  background-color: var(--icat-background-color);
+  border-radius: 8px;
+}
+@media screen and (max-width: 768px) {
+  #main .top-main {
+    margin: 0 16px;
+  }
+}
+#main .top-main .banner-head {
+  padding-top: 28px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: var(--icat-text-color);
+}
+@media screen and (max-width: 768px) {
+  #main .top-main .banner-head {
+    padding: 26px 0;
+    margin: 0 auto;
+    display: table;
+  }
+}
+#main .top-main .banner-head > i {
+  font-size: 1.58em;
+}
+#main .top-main .banner-head > span {
+  font-size: 20px;
+  font-weight: bold;
+}
+#main .top-main .banner-details {
+  padding: 20px 30px;
+  display: -webkit-box;
+}
+@media screen and (max-width: 768px) {
+  #main .top-main .banner-details {
+    margin-top: -16px;
+  }
+}
+#main .top-main .banner-details .book-details {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  #main .top-main .banner-details .book-details {
+    flex-direction: column;
+  }
+}
+#main .top-main .banner-details .book-details img {
+  max-width: calc(100% / 8);
+  border-radius: 6px;
+  border: 1px solid var(--icat-style-border-always);
+}
+@media screen and (max-width: 768px) {
+  #main .top-main .banner-details .book-details img {
+    max-width: calc(100% / 2);
+    margin: 0 auto;
+  }
+}
+#main .top-main .banner-details .book-details .details {
+  padding: 4px 12px;
+  position: relative;
+}
+#main .top-main .banner-details .book-details .details .details-title {
+  display: flex;
+  margin-top: -8px;
+  align-items: baseline;
+  font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  #main .top-main .banner-details .book-details .details .details-title {
+    display: grid;
+    justify-content: center;
+    margin-top: 0;
+  }
+}
+#main .top-main .banner-details .book-details .details .details-title p {
+  font-size: 18px;
+  color: var(--icat-text-color);
+}
+#main .top-main .banner-details .book-details .details .details-title span {
+  padding: 0 12px;
+  font-size: 13px;
+  color: #008439;
+}
+@media screen and (max-width: 768px) {
+  #main .top-main .banner-details .book-details .details .details-title span {
+    padding: 0;
+    text-align: center;
+    margin-top: -8px;
+  }
+}
+#main .top-main .banner-details .book-details .details .details-describe {
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+  #main .top-main .banner-details .book-details .details .details-describe {
+    margin-bottom: 12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #main .top-main .banner-details .book-details .details .details-describe {
+    margin-top: 10px;
+  }
+}
+#main .top-main .banner-details .book-details .details .details-describe span {
+  display: flex;
+  font-weight: 300;
+  font-size: smaller;
+  color: var(--icat-describe-text-color);
+}
+#main .top-main .banner-details .book-details .details .details-author {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  color: var(--icat-text-color);
+}
+@media screen and (max-width: 768px) {
+  #main .top-main .banner-details .book-details .details .details-author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: initial;
+  }
+}
+#main .top-main .banner-details .book-details .details .details-author span {
+  padding: 0 12px;
+  font-size: 14px;
+}
+#main .top-main .banner-details .book-details .details .details-author p,
+#main .top-main .banner-details .book-details .details .details-author a {
+  font-size: 15px;
+}
