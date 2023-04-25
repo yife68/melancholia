@@ -23,6 +23,7 @@
   --icat-background-color: #fff;
   --icat-text-color: #000;
   --icat-describe-text-color: #b3b3ae;
+  --icat-banner-book-text-color: #dd4b39;
 }
 [data-theme='dark'] {
   --icat-style-border-always: rgba(255,255,255,0.1);
@@ -33,4 +34,7 @@
   --icat-background-color: #121212;
   --icat-text-color: #fff;
   --icat-describe-text-color: #ededed;
+}
+[data-theme='dark'] #darken {
+  filter: brightness(0.9);
 }
