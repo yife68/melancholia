@@ -50,7 +50,7 @@
   display: contents;
 }
 #main .middle-main .information-left .left-layout .read .read-button {
-  padding: 14px 34px;
+  padding: 14px 0;
   background-color: #f56c6c;
   border-radius: 4px;
   border: 1px solid var(--icat-style-border-always);
@@ -61,6 +61,11 @@
 }
 #main .middle-main .information-left .left-layout .read .read-button i {
   margin-right: 6px;
+}
+@media screen and (max-width: 768px) {
+  #main .middle-main .information-left .left-layout .read .read-button i {
+    margin-right: 0;
+  }
 }
 #main .middle-main .information-left .right-layout {
   min-width: calc(100% / 2);
@@ -79,20 +84,20 @@
   margin-left: 13px;
   color: #fff;
 }
-#main .middle-main .information-left .right-layout .popularity .pe {
-  display: none !important;
+#main .middle-main .information-left .right-layout .popularity .popularity-top-pe {
+  display: none;
 }
 @media screen and (max-width: 768px) {
-  #main .middle-main .information-left .right-layout .popularity .pe {
-    display: flex;
+  #main .middle-main .information-left .right-layout .popularity .popularity-top-pe {
+    display: block;
   }
-  #main .middle-main .information-left .right-layout .popularity .pe i {
-    margin-right: 6px;
-  }
+}
+#main .middle-main .information-left .right-layout .popularity .popularity-top-pe i {
+  margin-right: 6px;
 }
 @media screen and (max-width: 768px) {
   #main .middle-main .information-left .right-layout .popularity .popularity-top {
-    display: none !important;
+    display: none;
   }
 }
 #main .middle-main .information-right {
@@ -103,11 +108,12 @@
 }
 @media screen and (max-width: 768px) {
   #main .middle-main .information-right {
-    padding-top: 16px;
+    padding-top: 18px;
+    display: grid;
   }
 }
 #main .middle-main .information-right .left-layout {
-  min-width: calc(100% / 2);
+  min-width: calc(100% / 3);
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -116,33 +122,68 @@
   display: grid;
   justify-items: center;
 }
-#main .middle-main .information-right .left-layout .title {
+#main .middle-main .information-right .left-layout .renew .title {
   font-weight: 600;
   color: var(--icat-text-color);
 }
-#main .middle-main .information-right .left-layout .content {
+#main .middle-main .information-right .left-layout .renew .content {
   color: var(--icat-banner-book-text-color);
   font-size: 14px;
   font-weight: 600;
+  text-align: center;
+  margin-top: 6px;
 }
-#main .middle-main .information-right .right-layout {
-  min-width: calc(100% / 2);
+#main .middle-main .information-right .middle-layout {
+  min-width: calc(100% / 3);
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+@media screen and (max-width: 768px) {
+  #main .middle-main .information-right .middle-layout {
+    margin-top: 12px;
+  }
+}
+#main .middle-main .information-right .middle-layout .total-number-of-words {
+  display: grid;
+  justify-items: center;
+}
+#main .middle-main .information-right .middle-layout .total-number-of-words .title {
+  font-weight: 600;
+  color: var(--icat-text-color);
+}
+#main .middle-main .information-right .middle-layout .total-number-of-words .content {
+  color: var(--icat-banner-book-text-color);
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 6px;
+}
+#main .middle-main .information-right .right-layout {
+  min-width: calc(100% / 3);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@media screen and (max-width: 768px) {
+  #main .middle-main .information-right .right-layout {
+    margin-top: 12px;
+  }
 }
 #main .middle-main .information-right .right-layout .latest-chapter {
   display: grid;
   justify-items: center;
 }
-#main .middle-main .information-right .right-layout .title {
+#main .middle-main .information-right .right-layout .latest-chapter .title {
   font-weight: 600;
   color: var(--icat-text-color);
 }
-#main .middle-main .information-right .right-layout .content {
+#main .middle-main .information-right .right-layout .latest-chapter .content {
   color: var(--icat-banner-book-text-color);
   font-size: 14px;
   font-weight: 600;
+  text-align: center;
+  margin-top: 6px;
 }
 #main .top-main {
   margin: 0 100px;
