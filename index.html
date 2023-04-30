@@ -42,7 +42,7 @@
         <div class="header_left">
 	<a href="/" class="button"><span class="header_text">Melancholia</span></a>
 </div>
-<div class="header_right">
+<div class="header_middle">
 	<div class="navbar_menus">
 		
 		<a target="_blank" rel="noopener" href="https://meuicat.com/" class="button">
@@ -62,6 +62,8 @@
 		</a>
 		
 	</div>
+</div>
+<div class="header_right">
 	<a href="javaScript:void(0);" class="button" id="btn-toggle-dark">
 		<div>
 			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none"
@@ -99,80 +101,102 @@
     </header>
     <body>
         <div id="main">
-    <div class="top-main">
-        <div class="banner-head">
-            <i class="iCat icon-details"></i>
-            <span>书籍详情</span>
-        </div>
-        <div class="banner-details">
-            <div class="book-details">
-                <img src="https://yife68.gitee.io/icat-pic/collect/book/7.webp">
-                <div class="details">
-                    <div class="details-title">
-                        <p>朱砂一点红：红尘欭</p>
-                        <span class="publish-in-instalments">连载中</span>
-                        
+    <div id="details">
+        <div class="pc-main">
+            <div class="banner">
+                <div class="banner-left">
+                    <img src="https://yife68.gitee.io/icat-pic/collect/book/7.webp">
+                    <div class="book-information">
+                        <div class="book-title">
+                            <p class="title">朱砂一点红：红尘欭</p>
+                            <span class="publish-in-instalments">连载中</span>
+                            
+                        </div>
+                        <div class="book-category">
+                            <span class="category">记录</span><span class="category">书籍</span><span class="category">啊哈哈</span>
+                        </div>
+                        <div class="book-total one">
+                            <span>28.7k</span><span>字</span><span>&ensp;|&ensp;</span><span id="busuanzi_value_site_pv"></span><span>人气</span>
+                        </div>
+                        <div class="book-total two">
+                            <span class="bold">最后更新：</span><span class="key">2023-04-25 22:07</span>
+                        </div>
+                        <div class="book-total three">
+                            <span class="bold">最新章节：</span><span class="key">Hello World2555</span>
+                        </div>
+                        <a class="read" id="darken" href="/hello-world2/">
+                            <i class="iCat icon-start-reading"></i>
+                            开始阅读
+                        </a>
                     </div>
-                    <div class="details-describe">
-                        <span>
-                            缘起，我在人群中看见你；缘散，我看见你在人群中；故事结束了，但并不代表着终章；每个人的一生，都会遇到一些特别的故事，是暮翠朝红；也有盟山誓海；亦或流水桃花；总归我们都会有各自的生活，开始新的旅程
-                        </span><br>
-                        <span>
-                            亲手湮灭一段不渝的爱情，也见过许多BE的人间常态；有人一头扎进玄学，企图通过塔罗星座去揣测这世间最神秘的一种情感；有人在寺庙祈祷姻缘，来命定二人八字的和与否；也有人自我放弃，亦或自我救赎;是凌晨宿醉，买醉忘却烦心之结，日复一日，度日如年；亦或是奋发上进，妄图能使失望之人对己有所改观
-                        </span>
-                    </div>
-                    <div class="details-author">
-                        <p>作者：</p>
-                        <p>亦封</p>
-                        <span>|</span>
-                        <a target="_blank" rel="noopener" href="https://meuicat.com/" data-pjax-state>关于作者</a>
+                </div>
+                <div class="banner-right">
+                    <div class="banner-introduce">
+                        <p>书籍介绍</p>
+                        <div class="book-introduce">
+                            <span>
+                                &ensp;&ensp;&ensp;&ensp;缘起，我在人群中看见你；缘散，我看见你在人群中；故事结束了，但并不代表着终章；每个人的一生，都会遇到一些特别的故事，是暮翠朝红；也有盟山誓海；亦或流水桃花；总归我们都会有各自的生活，开始新的旅程
+                            </span><br>
+                            <span>
+                                &ensp;&ensp;&ensp;&ensp;亲手湮灭一段不渝的爱情，也见过许多BE的人间常态；有人一头扎进玄学，企图通过塔罗星座去揣测这世间最神秘的一种情感；有人在寺庙祈祷姻缘，来命定二人八字的和与否；也有人自我放弃，亦或自我救赎;是凌晨宿醉，买醉忘却烦心之结，日复一日，度日如年；亦或是奋发上进，妄图能使失望之人对己有所改观
+                            </span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="middle-main">
-        <div class="information-left">
-            <div class="left-layout">
-                <div class="read" id="darken">
-                    <a class="read-button" href="/hello-world2/">
+        <div class="pe-main">
+            <div class="banner-top" style="background-color: #0093E9; background-image: linear-gradient(45deg, #0093E9 0%, #80D0C7 100%);">
+                <div class="book-information">
+                    <div class="title">朱砂一点红：红尘欭</div>
+                    <div class="book-total">
+                        <span class="category">记录</span><div class="separate"></div><span>连载中</span><div class="separate"></div><span>28.7k</span><span>字</span>
+                    </div>
+                    <a class="read" href="/hello-world2/">
                         <i class="iCat icon-start-reading"></i>
                         开始阅读
                     </a>
                 </div>
+                <img src="https://yife68.gitee.io/icat-pic/collect/book/7.webp">
             </div>
-            <div class="right-layout">
-                <div class="popularity" id="darken">
-                    <div class="popularity-top-pe">
-                        <i class="iCat icon-popularity"></i>
+            <div class="banner-bottom">
+                <div class="banner-introduce">
+                    <p>书籍介绍</p>
+                    <div class="book-introduce">
+                        <span>
+                            &ensp;&ensp;&ensp;&ensp;缘起，我在人群中看见你；缘散，我看见你在人群中；故事结束了，但并不代表着终章；每个人的一生，都会遇到一些特别的故事，是暮翠朝红；也有盟山誓海；亦或流水桃花；总归我们都会有各自的生活，开始新的旅程
+                        </span><br>
+                        <span>
+                            &ensp;&ensp;&ensp;&ensp;亲手湮灭一段不渝的爱情，也见过许多BE的人间常态；有人一头扎进玄学，企图通过塔罗星座去揣测这世间最神秘的一种情感；有人在寺庙祈祷姻缘，来命定二人八字的和与否；也有人自我放弃，亦或自我救赎;是凌晨宿醉，买醉忘却烦心之结，日复一日，度日如年；亦或是奋发上进，妄图能使失望之人对己有所改观
+                        </span>
                     </div>
-                    <div class="popularity-top">人气：</div>
-                    <div class="popularity-buttom"><span id="busuanzi_value_site_pv"></span></div>
-                </div>
-            </div>
-        </div>
-        <div class="information-right">
-            <div class="left-layout">
-                <div class="renew">
-                    <div class="renew-top title" id="darken">全书总字</div>
-                    <div class="renew_buttom content">28.7k</div>
-                </div>
-            </div>
-            <div class="middle-layout">
-                <div class="total-number-of-words">
-                    <div class="total-number-of-words-top title" id="darken">最后更新</div>
-                    <div class="total-number-of-words_buttom content">2023-04-25 22:07</div>
-                </div>
-            </div>
-            <div class="right-layout">
-                <div class="latest-chapter">
-                    <div class="latest-chapter-top title" id="darken">最新章节</div>
-                    <div class="latest-chapter-buttom content">Hello World2555</div>
+                    <div class="book-category">
+                        <span class="category">记录</span><span class="category">书籍</span><span class="category">啊哈哈</span>
+                    </div>
+                    <div id="separator-bar"></div>
+                    <div class="author">
+                        <div class="author-img"></div>
+                        <p>书籍介绍</p>
+                        <div class="author-name">
+                            <span class="name">笔名：</span>
+                            <span>亦封</span>
+                        </div>
+                        <div class="author-statistics"><span>积累字数200k字 | 创作天数3334天</span></div>
+                        <div class="author-introduce">
+                            <p class="introduce">作者介绍</p>
+                            <span>山高路远 看世界 也找自己.</span>
+                        </div>
+                        <div id="separator-bar"></div>
+                    </div>
+                    <a class="author-home" target="_blank" rel="noopener" href="https://meuicat.com/">
+                        <span>查看作者主页</span>
+                        <i class="iCat icon-start-reading"></i>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
-    <div class="buttom-main"></div>
+    <div class="col-content"></div>
 </div>
         <script>
     document.getElementById("btn-dropdown").addEventListener('click', () => {
