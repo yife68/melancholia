@@ -82,6 +82,7 @@
   --icat-text-highlight-color: #1f2d3d;
   --icat-banner-text-color: #dd4b39;
   --icat-darken-filter: brightness(1);
+  --icat-author-background: url("https://s1.ax1x.com/2023/05/02/p9GWEin.jpg");
 }
 [data-theme='dark'] {
   --icat-theme: #f2b94b;
@@ -127,6 +128,7 @@
   --icat-nav-pe-background-color: #1b1c1e;
   --icat-text-highlight-color: #fff;
   --icat-darken-filter: brightness(0.9);
+  --icat-author-background: url("https://s1.ax1x.com/2023/05/02/p9GWVGq.jpg");
 }
 #darken {
   filter: brightness(0.9);
