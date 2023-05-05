@@ -65,6 +65,7 @@
   --icat-secondbg: #f1f3f8;
   --icat-shadow-nav: 0 5px 12px -5px rgba(102,68,68,0.05);
   --icat-card-bg: #fff;
+  --icat-card-content-bg: var(--icat-card-bg);
   --icat-card-bg-op: var(--icat-black-op);
   --icat-card-bg-none: rgba(255,255,255,0);
   --icat-shadow-lightblack: 0 5px 12px -5px rgba(102,68,68,0);
@@ -112,6 +113,7 @@
   --icat-secondbg: #30343f;
   --icat-shadow-nav: 0 5px 20px 0px rgba(28,28,28,0.4);
   --icat-card-bg: #1d1e22;
+  --icat-card-content-bg: #1e1e1e;
   --icat-card-bg-op: var(--icat-white-op);
   --icat-card-bg-none: rgba(29,27,38,0);
   --icat-shadow-lightblack: 0 5px 12px -5px rgba(102,68,68,0);
